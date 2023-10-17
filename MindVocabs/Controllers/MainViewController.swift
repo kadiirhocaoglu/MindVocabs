@@ -28,9 +28,16 @@ class MainViewController: UIViewController {
                 overrideUserInterfaceStyle = .dark
             }
         }
-
+        //CoreDataCaller.shared.addWords(word: "Hello", mean: "Merhaba")
+        //CoreDataCaller.shared.addWords(word: "Hi", mean: "Selam")
+        //CoreDataCaller.shared.addWords(word: "You", mean: "Sen")
+        CoreDataCaller.shared.getWords()
+        //CoreDataCaller.shared.updateWord(word: "Hi", toMean: "Kadir")
+        CoreDataCaller.shared.deleteWord(word: "Hi")
+        CoreDataCaller.shared.getWords()
         
         view.addSubview(packagesTableView)
+        
         packagesTableView.dataSource = self
         packagesTableView.delegate = self
     }

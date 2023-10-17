@@ -19,6 +19,7 @@
 		932551D22AD84B9E00442D4C /* UnitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932551D12AD84B9E00442D4C /* UnitDetailsViewController.swift */; };
 		932551D42AD84DE100442D4C /* WordDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932551D32AD84DE100442D4C /* WordDetailsViewController.swift */; };
 		9353EFB22ADC6D9F0037FBB2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353EFB12ADC6D9F0037FBB2 /* Extensions.swift */; };
+		936DC0C22ADED03000696E6D /* CoreDataCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936DC0C12ADED03000696E6D /* CoreDataCaller.swift */; };
 		93DFE28A2ADE0F3700006183 /* LabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DFE2892ADE0F3700006183 /* LabelExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		932551D12AD84B9E00442D4C /* UnitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitDetailsViewController.swift; sourceTree = "<group>"; };
 		932551D32AD84DE100442D4C /* WordDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailsViewController.swift; sourceTree = "<group>"; };
 		9353EFB12ADC6D9F0037FBB2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		936DC0C12ADED03000696E6D /* CoreDataCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCaller.swift; sourceTree = "<group>"; };
 		93DFE2892ADE0F3700006183 /* LabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				9311D06F2ADEB7B300EB7874 /* MindVocabsModel.xcdatamodeld */,
+				936DC0C02ADED01900696E6D /* Manager */,
 				9353EFB02ADC6D920037FBB2 /* Helper */,
 				9326591D2ADB451D00D920C7 /* Controllers */,
 				932551C02AD82FEC00442D4C /* Assets.xcassets */,
@@ -102,6 +105,14 @@
 				93DFE2892ADE0F3700006183 /* LabelExtensions.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		936DC0C02ADED01900696E6D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				936DC0C12ADED03000696E6D /* CoreDataCaller.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				932551BC2AD82FEB00442D4C /* MainViewController.swift in Sources */,
+				936DC0C22ADED03000696E6D /* CoreDataCaller.swift in Sources */,
 				9353EFB22ADC6D9F0037FBB2 /* Extensions.swift in Sources */,
 				932551D22AD84B9E00442D4C /* UnitDetailsViewController.swift in Sources */,
 				932551CC2AD8307000442D4C /* MainTabBarViewController.swift in Sources */,
